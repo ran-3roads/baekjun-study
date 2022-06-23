@@ -1,7 +1,7 @@
 def dfs(x,y):
-    if x<=-1 or x>=n or y<=-1 or y>=m:
+    if x<=-1 or x>=n or y<=-1 or y>=m: #0이하면 안되게하자
         return False
-    if graph[x][y]==0:
+    if graph[x][y]==0: #four -1 
         graph[x][y]=1
         dfs(x-1,y)
         dfs(x,y-1)
