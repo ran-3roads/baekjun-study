@@ -18,6 +18,6 @@ for i in range(k):
         elif arr[i:].index(j) > far:
             far=arr[i:].index(j)
             temp=j
-    plug[plug.index(temp)]=arr[i]
+    plug[plug.index(temp)]=arr[i] #플러그를 교체해줌 
     count+=1
 print(count)
